@@ -1,6 +1,6 @@
 # ServerMarket
-> 本插件是 ServerMarket 的修改版，[原插件地址点此](https://bbs.mc9y.com/resources/89/)
-> 原插件 Github 仓库请见 Fork from xxx
+> 本插件是 ServerMarket 的修改版，[原插件地址点此](https://bbs.mc9y.com/resources/89/)  
+> 原插件 Github 仓库请见 Fork from [Blank038/ServerMarket](https://github.com/Blank038/ServerMarket)
 
 ServerMarket —— 高度自定义的全球市场插件[1.15.2] 1.0.3-SELFUSE
 * 高度自定义 Gui 界面
