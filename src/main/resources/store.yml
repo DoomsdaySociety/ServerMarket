@@ -1,5 +1,5 @@
 # 界面标题
-title: "&8暂存库"
+title: "&0市场邮件"
 # 界面大小
 size: 54
 # 显示商品的槽位
@@ -9,11 +9,18 @@ size: 54
 store-item-slots:
   - 0-44
 # 界面物品设定
+
+# MrXiaoM 的更新: action 新增玩家执行命令和控制台执行命令功能
+# 举个例子~
+# 请求传送到Blank038: action: "player:tpa %player%"
+# 控制台打开dm菜单: action: "console:dm open 主菜单 %player%"
+# 控制台公告(bc): action "console:alert &a%player% &b测试"
 items:
   main:
     type: torch
     amount: 1
-    name: "&c全球市场"
+    name: "&f市场清单"
     slot: 49
     action: market
-    lore: []
+    lore:
+      - "&7返回环球市场首页"

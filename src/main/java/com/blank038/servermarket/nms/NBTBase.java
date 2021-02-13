@@ -4,9 +4,9 @@ import org.bukkit.inventory.ItemStack;
 
 public interface NBTBase {
 
-    String get(ItemStack itemStack, String key);
+	String get(ItemStack itemStack, String key);
 
-    boolean contains(ItemStack itemStack, String key);
+	boolean contains(ItemStack itemStack, String key);
 
-    ItemStack addTag(ItemStack itemStack, String key, String value);
+	ItemStack addTag(ItemStack itemStack, String key, String value);
 }

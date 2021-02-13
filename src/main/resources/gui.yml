@@ -1,5 +1,5 @@
 # 界面标题
-title: "&8全球市场面板"
+title: "&0市场清单"
 # 界面大小
 size: 54
 # 显示商品的槽位
@@ -11,29 +11,45 @@ sale-item-slots:
 # 物品信息
 sale-info:
   - " "
-  - "&a售卖者: &f%seller%"
-  - "&a价格: &f%price%金币"
-  - "&a上架时间: &f%time%"
+  - "&f价格: &f%price% 金币"
+  - "&f售卖者: &7&o%seller%"
+  - "&f上架时间: &7%time%"
+  - "&e<Shift+左键单击 购买>"
+  - ""
+sale-info-owner:
+  - " "
+  - "&f价格: &f%price% 金币"
+  - "&f售卖者: &7&o%seller%"
+  - "&f上架时间: &7%time%"
+  - "&8<Shift+左键单击 下架>"
+  - ""
 # 界面物品设定
+
+# MrXiaoM 的更新: action 新增玩家执行命令和控制台执行命令功能
+# 举个例子~
+# 请求传送到Blank038: action: "player:tpa %player%"
+# 控制台打开dm菜单: action: "console:dm open 主菜单 %player%"
+# 控制台公告(bc): action "console:alert &a%player% &b测试"
 items:
   up:
     type: paper
     amount: 1
-    name: "&f上一页"
+    name: "&e上一页"
     slot: 45
     action: up
     lore: []
   down:
     type: paper
     amount: 1
-    name: "&f下一页"
+    name: "&e下一页"
     slot: 53
     action: down
     lore: []
   store:
     type: chest
     amount: 1
-    name: "&e个人仓库"
+    name: "&f市场邮箱"
     slot: 49
     action: store
-    lore: []
+    lore: 
+      - "&7购买物品后需要到这里领取、"
