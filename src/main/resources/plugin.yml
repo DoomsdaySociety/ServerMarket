@@ -6,8 +6,8 @@ authors:
 description: '原作者是九域资源社区的Blank038，此插件由 Github 的 MrXiaoM 修改，仅仅按照自己的需求改了一小部分图个好用，因为自用所以只兼容 1.15_R1，该版本开源地址 https://github.com/MrXiaoM/ServerMarket'
 depend:
   - Vault
-version: 1.0.3-SELFUSE
-api-version: 1.15
+version: 1.0.4-SELFUSE
+api-version: 1.16
 commands:
   servermarket:
     aliases:

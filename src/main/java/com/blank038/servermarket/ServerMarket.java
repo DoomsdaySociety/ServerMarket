@@ -8,7 +8,7 @@ import com.blank038.servermarket.data.PlayerData;
 import com.blank038.servermarket.data.gui.SaleItem;
 import com.blank038.servermarket.listener.PlayerListener;
 import com.blank038.servermarket.nms.NBTBase;
-import com.blank038.servermarket.nms.sub.v1_15_R1;
+import com.blank038.servermarket.nms.sub.v1_16_R3;
 import com.mc9y.blank038api.Blank038ApiLite;
 
 import org.bukkit.Bukkit;
@@ -73,15 +73,15 @@ public class ServerMarket extends JavaPlugin {
 		version = ((Object) Bukkit.getServer()).getClass().getPackage().getName().split("\\.")[3];
 		boolean disable = false;
 		switch (version) {
-		case "v1_15_R1":
-			nbtBase = new v1_15_R1();
-			break;
-		case "???":
-			break;
-		default:
-			this.getLogger().info("服务器版本不支持, 关闭插件");
-			disable = true;
-			this.setEnabled(false);
+			case "v1_16_R3":
+				nbtBase = new v1_16_R3();
+				break;
+			case "???":
+				break;
+			default:
+				this.getLogger().info("服务器版本不支持, 关闭插件");
+				disable = true;
+				this.setEnabled(false);
 		}
 		if (disable)
 			return;
